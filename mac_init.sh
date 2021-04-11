@@ -28,5 +28,14 @@ echo 'save it to gitlab or https://github.com/settings/keys'
 echo 'change zsh theme as agnoster'
 echo 'open ~/.zshrc'
 echo 'ZSH_THEME="agnoster"'
+cd ~/
+mkdir github
+cd github
+git clone https://github.com/powerline/fonts.git
+cd fonts
+./install.sh
+echo '!!!!!! follow by https://zhuanlan.zhihu.com/p/62419420 !!!!!!'
+echo '!!!!!! need change text and color on iterm2 !!!!!!'
+
 echo ''
 echo 'others reference https://github.com/xogo/mac_init'
