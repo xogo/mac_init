@@ -1,4 +1,9 @@
-bash install_oh_my_zsh.sh
+# oh my zsh
+# original code
+# sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# curl error use below code
+sh install_oh_my_zsh.sh
+chsh -s /bin/zsh
 
 bash install_brew.sh
 
