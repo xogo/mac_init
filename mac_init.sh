@@ -23,3 +23,8 @@ curl -L https://bit.ly/janus-bootstrap | bash
 ssh-keygen 
 cat ~/.ssh/id_rsa.pub
 echo 'save it to gitlab or https://github.com/settings/keys'
+
+# others which need manual install
+echo 'change zsh theme as agnoster'
+echo 'open ~/.zshrc'
+echo 'ZSH_THEME="agnoster"'
