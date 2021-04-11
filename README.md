@@ -9,7 +9,7 @@ cd github
 
 git clone https://github.com/xogo/mac_init.git
 
-cd mac_init.git
+cd mac_init
 
 sh install.sh
 
